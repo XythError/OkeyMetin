@@ -1,0 +1,8 @@
+numpy>=1.21.0
+opencv-python>=4.5.0
+PyDirectInput>=1.0.4
+pywin32>=305; sys_platform == "win32"
+pytesseract>=0.3.8
+PySimpleGUI>=4.60.0
+pyinstaller>=5.0.0
+Pillow>=9.0.0

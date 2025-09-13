@@ -1,0 +1,63 @@
+{
+    "game_window": {
+        "name": "Metin2",
+        "window_size": [
+            800,
+            600
+        ],
+        "window_position": [
+            200,
+            100
+        ]
+    },
+    "player_rack": {
+        "position": [
+            220,
+            480
+        ],
+        "size": [
+            560,
+            80
+        ]
+    },
+    "game_board": {
+        "position": [
+            220,
+            200
+        ],
+        "size": [
+            560,
+            280
+        ]
+    },
+    "timing": {
+        "click_delay": 0.3,
+        "action_delay": 1.0,
+        "game_start_delay": 2.0
+    },
+    "recognition": {
+        "tile_min_area": 800,
+        "tile_max_area": 3000,
+        "template_threshold": 0.7,
+        "ocr_config": "--psm 8 -c tessedit_char_whitelist=0123456789"
+    },
+    "strategy": {
+        "prefer_sets": true,
+        "joker_conservation": true,
+        "aggressive_mode": false,
+        "meld_scores": {
+            "SET_3": 10,
+            "SET_4": 15,
+            "RUN_3": 12,
+            "RUN_4": 18,
+            "RUN_5": 25,
+            "RUN_6": 32,
+            "RUN_7": 40
+        }
+    },
+    "debug": {
+        "save_debug_images": false,
+        "verbose_logging": false,
+        "performance_monitoring": true
+    }
+}
