@@ -1,0 +1,6 @@
+numpy
+opencv-python
+PyDirectInput
+pywin32
+PySimpleGUI
+pyinstaller
